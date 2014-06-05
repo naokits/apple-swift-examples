@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD0E1DAD1940687600AD5855 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0E1DAC1940687600AD5855 /* AppDelegate.swift */; };
+		CD0E1DAF1940687600AD5855 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0E1DAE1940687600AD5855 /* ViewController.swift */; };
+		CD0E1DB21940687600AD5855 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD0E1DB01940687600AD5855 /* Main.storyboard */; };
+		CD0E1DB41940687600AD5855 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD0E1DB31940687600AD5855 /* Images.xcassets */; };
+		CD0E1DC01940687600AD5855 /* swift_iTunesFeed_RACTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0E1DBF1940687600AD5855 /* swift_iTunesFeed_RACTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD0E1DBA1940687600AD5855 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD0E1D9F1940687600AD5855 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD0E1DA61940687600AD5855;
+			remoteInfo = "swift-iTunesFeed-RAC";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD0E1DA71940687600AD5855 /* swift-iTunesFeed-RAC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-iTunesFeed-RAC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD0E1DAB1940687600AD5855 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD0E1DAC1940687600AD5855 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD0E1DAE1940687600AD5855 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD0E1DB11940687600AD5855 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD0E1DB31940687600AD5855 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CD0E1DB91940687600AD5855 /* swift-iTunesFeed-RACTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-iTunesFeed-RACTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD0E1DBE1940687600AD5855 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD0E1DBF1940687600AD5855 /* swift_iTunesFeed_RACTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_iTunesFeed_RACTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD0E1DA41940687600AD5855 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD0E1DB61940687600AD5855 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD0E1D9E1940687600AD5855 = {
+			isa = PBXGroup;
+			children = (
+				CD0E1DA91940687600AD5855 /* swift-iTunesFeed-RAC */,
+				CD0E1DBC1940687600AD5855 /* swift-iTunesFeed-RACTests */,
+				CD0E1DA81940687600AD5855 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD0E1DA81940687600AD5855 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD0E1DA71940687600AD5855 /* swift-iTunesFeed-RAC.app */,
+				CD0E1DB91940687600AD5855 /* swift-iTunesFeed-RACTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD0E1DA91940687600AD5855 /* swift-iTunesFeed-RAC */ = {
+			isa = PBXGroup;
+			children = (
+				CD0E1DAC1940687600AD5855 /* AppDelegate.swift */,
+				CD0E1DAE1940687600AD5855 /* ViewController.swift */,
+				CD0E1DB01940687600AD5855 /* Main.storyboard */,
+				CD0E1DB31940687600AD5855 /* Images.xcassets */,
+				CD0E1DAA1940687600AD5855 /* Supporting Files */,
+			);
+			path = "swift-iTunesFeed-RAC";
+			sourceTree = "<group>";
+		};
+		CD0E1DAA1940687600AD5855 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD0E1DAB1940687600AD5855 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD0E1DBC1940687600AD5855 /* swift-iTunesFeed-RACTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD0E1DBF1940687600AD5855 /* swift_iTunesFeed_RACTests.swift */,
+				CD0E1DBD1940687600AD5855 /* Supporting Files */,
+			);
+			path = "swift-iTunesFeed-RACTests";
+			sourceTree = "<group>";
+		};
+		CD0E1DBD1940687600AD5855 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD0E1DBE1940687600AD5855 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD0E1DA61940687600AD5855 /* swift-iTunesFeed-RAC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD0E1DC31940687600AD5855 /* Build configuration list for PBXNativeTarget "swift-iTunesFeed-RAC" */;
+			buildPhases = (
+				CD0E1DA31940687600AD5855 /* Sources */,
+				CD0E1DA41940687600AD5855 /* Frameworks */,
+				CD0E1DA51940687600AD5855 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "swift-iTunesFeed-RAC";
+			productName = "swift-iTunesFeed-RAC";
+			productReference = CD0E1DA71940687600AD5855 /* swift-iTunesFeed-RAC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD0E1DB81940687600AD5855 /* swift-iTunesFeed-RACTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD0E1DC61940687600AD5855 /* Build configuration list for PBXNativeTarget "swift-iTunesFeed-RACTests" */;
+			buildPhases = (
+				CD0E1DB51940687600AD5855 /* Sources */,
+				CD0E1DB61940687600AD5855 /* Frameworks */,
+				CD0E1DB71940687600AD5855 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD0E1DBB1940687600AD5855 /* PBXTargetDependency */,
+			);
+			name = "swift-iTunesFeed-RACTests";
+			productName = "swift-iTunesFeed-RACTests";
+			productReference = CD0E1DB91940687600AD5855 /* swift-iTunesFeed-RACTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD0E1D9F1940687600AD5855 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Syo Ikeda";
+				TargetAttributes = {
+					CD0E1DA61940687600AD5855 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					CD0E1DB81940687600AD5855 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = CD0E1DA61940687600AD5855;
+					};
+				};
+			};
+			buildConfigurationList = CD0E1DA21940687600AD5855 /* Build configuration list for PBXProject "swift-iTunesFeed-RAC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD0E1D9E1940687600AD5855;
+			productRefGroup = CD0E1DA81940687600AD5855 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD0E1DA61940687600AD5855 /* swift-iTunesFeed-RAC */,
+				CD0E1DB81940687600AD5855 /* swift-iTunesFeed-RACTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD0E1DA51940687600AD5855 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD0E1DB21940687600AD5855 /* Main.storyboard in Resources */,
+				CD0E1DB41940687600AD5855 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD0E1DB71940687600AD5855 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD0E1DA31940687600AD5855 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD0E1DAF1940687600AD5855 /* ViewController.swift in Sources */,
+				CD0E1DAD1940687600AD5855 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD0E1DB51940687600AD5855 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD0E1DC01940687600AD5855 /* swift_iTunesFeed_RACTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD0E1DBB1940687600AD5855 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD0E1DA61940687600AD5855 /* swift-iTunesFeed-RAC */;
+			targetProxy = CD0E1DBA1940687600AD5855 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD0E1DB01940687600AD5855 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD0E1DB11940687600AD5855 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD0E1DC11940687600AD5855 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD0E1DC21940687600AD5855 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD0E1DC41940687600AD5855 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "swift-iTunesFeed-RAC/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD0E1DC51940687600AD5855 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "swift-iTunesFeed-RAC/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CD0E1DC71940687600AD5855 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/swift-iTunesFeed-RAC.app/swift-iTunesFeed-RAC";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "swift-iTunesFeed-RACTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		CD0E1DC81940687600AD5855 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/swift-iTunesFeed-RAC.app/swift-iTunesFeed-RAC";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "swift-iTunesFeed-RACTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD0E1DA21940687600AD5855 /* Build configuration list for PBXProject "swift-iTunesFeed-RAC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD0E1DC11940687600AD5855 /* Debug */,
+				CD0E1DC21940687600AD5855 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD0E1DC31940687600AD5855 /* Build configuration list for PBXNativeTarget "swift-iTunesFeed-RAC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD0E1DC41940687600AD5855 /* Debug */,
+				CD0E1DC51940687600AD5855 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD0E1DC61940687600AD5855 /* Build configuration list for PBXNativeTarget "swift-iTunesFeed-RACTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD0E1DC71940687600AD5855 /* Debug */,
+				CD0E1DC81940687600AD5855 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD0E1D9F1940687600AD5855 /* Project object */;
+}
