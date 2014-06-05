@@ -1,0 +1,10 @@
+platform :ios, "7.0"
+
+pod "AFNetworking"
+pod "Mantle"
+pod "ReactiveCocoa"
+pod "SDWebImage", :head
+
+# target "swift-iTunesFeed-RACTests" do
+#
+# end

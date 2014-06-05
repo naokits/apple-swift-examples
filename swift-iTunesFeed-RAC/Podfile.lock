@@ -1,0 +1,47 @@
+PODS:
+  - AFNetworking (2.2.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+    - AFNetworking/UIKit
+  - AFNetworking/NSURLConnection (2.2.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.2.4):
+    - AFNetworking/NSURLConnection
+  - AFNetworking/Reachability (2.2.4)
+  - AFNetworking/Security (2.2.4)
+  - AFNetworking/Serialization (2.2.4)
+  - AFNetworking/UIKit (2.2.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - Mantle (1.5):
+    - Mantle/extobjc
+  - Mantle/extobjc (1.5)
+  - ReactiveCocoa (2.3.1):
+    - ReactiveCocoa/UI
+  - ReactiveCocoa/Core (2.3.1):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.3.1)
+  - ReactiveCocoa/UI (2.3.1):
+    - ReactiveCocoa/Core
+  - SDWebImage (HEAD based on 3.6):
+    - SDWebImage/Core
+  - SDWebImage/Core (HEAD based on 3.6)
+
+DEPENDENCIES:
+  - AFNetworking
+  - Mantle
+  - ReactiveCocoa
+  - SDWebImage (HEAD)
+
+SPEC CHECKSUMS:
+  AFNetworking: ab63e259fe91eef4519b371ef0a4955af0e73e64
+  Mantle: c67a7e45e14196ed42b2a7cbb98ff6a9920e6b92
+  ReactiveCocoa: dca75777b9d18990c8714a3a6f2149f29b4d1462
+  SDWebImage: c6989652c1cdf27cbdf3f56957e2030f825af5bc
+
+COCOAPODS: 0.33.1
