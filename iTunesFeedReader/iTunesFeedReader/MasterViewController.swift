@@ -7,6 +7,7 @@
 //
 
 import UIKit
+//import iTunesFeedClient
 
 class MasterViewController: UITableViewController {
 
@@ -24,8 +25,16 @@ class MasterViewController: UITableViewController {
 
         let addButton = UIBarButtonItem(barButtonSystemItem: .Add, target: self, action: "insertNewObject:")
         self.navigationItem.rightBarButtonItem = addButton
-        
-        self.fetchFeeds()
+    }
+
+
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated);
+        fetchFeeds()
+    }
+
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
     }
 
     override func didReceiveMemoryWarning() {
@@ -47,7 +56,7 @@ class MasterViewController: UITableViewController {
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if segue.identifier == "showDetail" {
             let indexPath = self.tableView.indexPathForSelectedRow()
-            let object = objects[indexPath.row] as NSDate
+            let object = objects[indexPath.row] as NSDictionary
             (segue.destinationViewController as DetailViewController).detailItem = object
         }
     }
@@ -64,11 +73,29 @@ class MasterViewController: UITableViewController {
         return objects.count
     }
 
-    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as UITableViewCell
+    override func tableView(tableView: UITableView!, heightForRowAtIndexPath indexPath: NSIndexPath!) -> CGFloat {
+        return 100
+    }
 
-        let object = objects[indexPath.row] as NSDate
-        cell.textLabel.text = object.description
+    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+//        let cell = UITableViewCell(style: UITableViewCellStyle.Subtitle, reuseIdentifier: "Cell") as? UITableViewCell
+        
+        let cell = UITableViewCell(style: UITableViewCellStyle.Subtitle, reuseIdentifier: "Cell")
+
+        let object : AnyObject = objects[indexPath.row] as AnyObject
+        let title : NSString! = object.valueForKeyPath("title.label") as NSString
+
+        cell.textLabel.text = object.valueForKeyPath("title.label") as NSString
+        cell.textLabel.font = UIFont.systemFontOfSize(14.0)
+        cell.textLabel.numberOfLines = 0
+        cell.detailTextLabel.text = object.valueForKeyPath("category.attributes.label") as NSString
+
+        
+        let images = object["im:image"] as NSArray
+        let imgURL: NSURL = NSURL(string: images[2].valueForKeyPath("label") as NSString)
+        cell.imageView.contentMode = UIViewContentMode.ScaleAspectFit
+        cell.imageView.setImageWithURL(imgURL, placeholderImage: UIImage(named: "empty.png"))
+
         return cell
     }
 
@@ -97,7 +124,15 @@ class MasterViewController: UITableViewController {
                 println(error)
                 return
             }
-            let entries = results.valueForKeyPath("feed.entry") as NSArray
+            var entries = results.valueForKeyPath("feed.entry") as NSArray
+            if self.objects == nil {
+                self.objects = NSMutableArray()
+            }
+
+            self.objects = entries.mutableCopy() as NSMutableArray
+            self.tableView.reloadData()
+            
+            // 内容確認のためにコンソールに表示
             for entry : AnyObject in entries {
                 println(entry.valueForKeyPath("category.attributes.im:id"))
                 println(entry.valueForKeyPath("category.attributes.label"))
@@ -140,7 +175,6 @@ class MasterViewController: UITableViewController {
                     println(image.objectForKey("label"))
                     println(image.valueForKeyPath("attributes.height"))
                 }
-                
                 println("------------------------------------")
             }
         })
