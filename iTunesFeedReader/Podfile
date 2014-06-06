@@ -1,5 +1,8 @@
+#
+# https://github.com/CocoaPods/Specs
+#
+
 platform :ios, '7.0'
 
-pod 'AFNetworking'
-pod 'SVProgressHUD'
-pod 'KINWebBrowser'
+pod 'AFNetworking', '~> 2.2.4'
+pod 'SDWebImage', '~> 3.6'
