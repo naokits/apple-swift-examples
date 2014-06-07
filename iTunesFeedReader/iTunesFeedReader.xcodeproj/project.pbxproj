@@ -17,6 +17,7 @@
 		121BD1E61940785F00CA2960 /* FeedClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121BD1E41940785F00CA2960 /* FeedClient.swift */; };
 		121BD1EA19407B5400CA2960 /* iTunesFeedClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 121BD1E919407B5400CA2960 /* iTunesFeedClient.m */; };
 		121BD1EB19407B5400CA2960 /* iTunesFeedClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 121BD1E919407B5400CA2960 /* iTunesFeedClient.m */; };
+		12D1CD7619431666007D6736 /* empty.png in Resources */ = {isa = PBXBuildFile; fileRef = 12D1CD7519431666007D6736 /* empty.png */; };
 		CA3B8347F7E547C8BC66630E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EAD5BD7F13A2494A99147F95 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +47,7 @@
 		121BD1E719407B5400CA2960 /* iTunesFeedReaderTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iTunesFeedReaderTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		121BD1E819407B5400CA2960 /* iTunesFeedClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTunesFeedClient.h; sourceTree = "<group>"; };
 		121BD1E919407B5400CA2960 /* iTunesFeedClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iTunesFeedClient.m; sourceTree = "<group>"; };
+		12D1CD7519431666007D6736 /* empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = empty.png; sourceTree = SOURCE_ROOT; };
 		4839069CC0C84483B9420B68 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		EAD5BD7F13A2494A99147F95 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -109,6 +111,7 @@
 		121BD1C2194063EE00CA2960 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				12D1CD7519431666007D6736 /* empty.png */,
 				121BD1E319406EB900CA2960 /* iTunesFeedReader-Bridging-Header.h */,
 				121BD1C3194063EE00CA2960 /* Info.plist */,
 			);
@@ -224,6 +227,7 @@
 			files = (
 				121BD1CC194063EE00CA2960 /* Main.storyboard in Resources */,
 				121BD1CE194063EE00CA2960 /* Images.xcassets in Resources */,
+				12D1CD7619431666007D6736 /* empty.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

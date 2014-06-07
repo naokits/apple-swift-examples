@@ -10,21 +10,28 @@ import UIKit
 
 class DetailViewController: UIViewController {
 
-    @IBOutlet var detailDescriptionLabel: UILabel
+    @IBOutlet var textView : UITextView!
 
-
-    var detailItem: AnyObject? {
+    var detailItem: NSDictionary? {
         didSet {
             // Update the view.
-            self.configureView()
+            println("値がセットされた: \(detailItem)")
         }
     }
 
     func configureView() {
+        println("コンフィグ")
         // Update the user interface for the detail item.
-        if let detail: AnyObject = self.detailItem {
-            if let label = self.detailDescriptionLabel {
-                label.text = detail.description
+        if let detail: NSDictionary = self.detailItem {
+            if textView {
+                let tv = textView!
+                
+                let description = self.detailItem.description as NSString
+                let cDescription = description.cStringUsingEncoding(NSUTF8StringEncoding)
+                let utf8Description = NSString.stringWithCString(cDescription, encoding: NSNonLossyASCIIStringEncoding)
+                textView.text = utf8Description
+            } else {
+                println("nilではいけない")
             }
         }
     }
@@ -32,14 +39,15 @@ class DetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        self.configureView()
+        if (detailItem) {
+            self.configureView()
+        }
     }
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
 }
 

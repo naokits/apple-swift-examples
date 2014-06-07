@@ -9,6 +9,7 @@
 import UIKit
 //import iTunesFeedClient
 
+
 class MasterViewController: UITableViewController {
 
     var objects = NSMutableArray()
@@ -35,20 +36,12 @@ class MasterViewController: UITableViewController {
 
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
+//        fetchFeeds()
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-    }
-
-    func insertNewObject(sender: AnyObject) {
-        if objects == nil {
-            objects = NSMutableArray()
-        }
-        objects.insertObject(NSDate.date(), atIndex: 0)
-        let indexPath = NSIndexPath(forRow: 0, inSection: 0)
-        self.tableView.insertRowsAtIndexPaths([indexPath], withRowAnimation: .Automatic)
     }
 
     // #pragma mark - Segues
@@ -77,41 +70,28 @@ class MasterViewController: UITableViewController {
         return 100
     }
 
-    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-//        let cell = UITableViewCell(style: UITableViewCellStyle.Subtitle, reuseIdentifier: "Cell") as? UITableViewCell
-        
-        let cell = UITableViewCell(style: UITableViewCellStyle.Subtitle, reuseIdentifier: "Cell")
-
+    override func tableView(tableView: UITableView!, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        let cell: UITableViewCell = UITableViewCell(style: UITableViewCellStyle.Subtitle, reuseIdentifier: "Cell")
         let object : AnyObject = objects[indexPath.row] as AnyObject
-        let title : NSString! = object.valueForKeyPath("title.label") as NSString
 
-        cell.textLabel.text = object.valueForKeyPath("title.label") as NSString
+        cell.textLabel.text = object.valueForKeyPath("title.label") as NSString!
         cell.textLabel.font = UIFont.systemFontOfSize(14.0)
         cell.textLabel.numberOfLines = 0
         cell.detailTextLabel.text = object.valueForKeyPath("category.attributes.label") as NSString
 
-        
         let images = object["im:image"] as NSArray
         let imgURL: NSURL = NSURL(string: images[2].valueForKeyPath("label") as NSString)
         cell.imageView.contentMode = UIViewContentMode.ScaleAspectFit
         cell.imageView.setImageWithURL(imgURL, placeholderImage: UIImage(named: "empty.png"))
+        
 
         return cell
     }
-
-    override func tableView(tableView: UITableView, canEditRowAtIndexPath indexPath: NSIndexPath) -> Bool {
-        // Return false if you do not want the specified item to be editable.
-        return true
+    
+    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        self.performSegueWithIdentifier("showDetail", sender: self)
     }
 
-    override func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
-        if editingStyle == .Delete {
-            objects.removeObjectAtIndex(indexPath.row)
-            tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Fade)
-        } else if editingStyle == .Insert {
-            // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view.
-        }
-    }
 
     // #pragma mark - Utility Methods
     

@@ -18,17 +18,16 @@ PODS:
   - AFNetworking/UIKit (2.2.4):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
-  - KINWebBrowser (0.2.4)
-  - SVProgressHUD (1.0)
+  - SDWebImage (HEAD based on 3.6):
+    - SDWebImage/Core
+  - SDWebImage/Core (HEAD based on 3.6)
 
 DEPENDENCIES:
-  - AFNetworking
-  - KINWebBrowser
-  - SVProgressHUD
+  - AFNetworking (~> 2.2.4)
+  - SDWebImage (HEAD)
 
 SPEC CHECKSUMS:
   AFNetworking: ab63e259fe91eef4519b371ef0a4955af0e73e64
-  KINWebBrowser: 466c88a47d28e36ca202f312d9b8f756791b8c63
-  SVProgressHUD: 5034c6e22b8c2ca3e09402e48d41ed0340aa1c50
+  SDWebImage: c6989652c1cdf27cbdf3f56957e2030f825af5bc
 
 COCOAPODS: 0.33.1
