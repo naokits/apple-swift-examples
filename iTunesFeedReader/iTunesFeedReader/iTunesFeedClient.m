@@ -13,7 +13,7 @@ NSString * const kBaseEndPoint = @"https://itunes.apple.com/";
 // Top Album
 //NSString * const kFeedURL = @"https://itunes.apple.com/jp/rss/topalbums/limit=10/json";
 // Top Song
-NSString * const kFeedURL = @"https://itunes.apple.com/jp/rss/topsongs/limit=50/json";
+NSString * const kFeedURL = @"https://itunes.apple.com/jp/rss/topsongs/limit=20/json";
 /// User Agent
 NSString * const RXiTunesAPIClientUserAgent = @"iTunesFeedClient iOS 0.1.0";
 
