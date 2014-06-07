@@ -1,14 +1,14 @@
 
 ## iTunesFeedReader
 
-概要
+### 概要
 
 
 
 このサンプルアプリについての説明
 
 
-アップルの[RSS Generator](https://rss.itunes.apple.com/jp/?urlDesc=%2Fgenerator)から取得したフィード情報を一覧表示し、任意のセルをタップすると、該当のフィード情報を表示します。
+アップルの[RSS Generator]から取得したフィード情報を一覧表示し、任意のセルをタップすると、該当のフィード情報を表示します。
 表示されるのは辞書配列を文字列化した内容のみです。
 
 取得しているフィード情報は次のとおりです。
@@ -29,5 +29,9 @@
 
 
 
+[ミュージック iTunes でダウンロード]: https://itunes.apple.com/jp/genre/myujikku/id34
+
+
+[RSS Generator]: https://rss.itunes.apple.com/jp/?urlDesc=%2Fgenerator
 [AFNetworking]: https://github.com/AFNetworking/AFNetworking
 [SDWebImage]: https://github.com/rs/SDWebImage
