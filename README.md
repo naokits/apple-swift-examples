@@ -1,12 +1,12 @@
 ## apple-swift-examples
 
 
-このプロジェクトは、アップル社の新言語「Swift」を使用したさまざまなiOSアプリケーションのサンプルを提供することが目的です。
+このプロジェクトはアップル社の新言語**[Swift]**を使用した、さまざまなiOSアプリケーションのサンプルを提供することを目的としています。
 
 現在のところ、このリポジトリは、[naokits]と[ikesyo]の二人が管理していますが、メンバーとして参加されたい方は是非ご連絡ください。
+また、サンプルコードをご自身のリポジトリですでにご提供されている場合でも、お知らせいただければ、ご紹介させていただきたいと思います。
 
-
-ここREADMEでは、必要最低限の説明のみしていますので、各サンプルの詳細内容についてはそれぞれのサンプルのREADMEを御覧ください。
+このREADMEでは必要最低限の説明のみしていますので、各サンプルの詳細内容についてはそれぞれのサンプルのREADMEを御覧ください。
 
 
 ### swift-iTunesFeed-RAC
@@ -30,14 +30,6 @@ iTunesフィード（トップ20のソング）を一覧表示し、任意のセ
 * [SDWebImage]
 
 
-[ikesyo]: https://github.com/ikesyo
-[naokits]: https://github.com/naokits
-
-[AFNetworking]: https://github.com/AFNetworking/AFNetworking
-[SDWebImage]: https://github.com/rs/SDWebImage
-[ReactiveCocoa]: https://github.com/ReactiveCocoa/ReactiveCocoa
-[Mantle]: https://github.com/Mantle/Mantle
-
 ### ライセンス
 
 それぞれのサンプルのREADMEを御覧ください。
@@ -50,7 +42,19 @@ iTunesフィード（トップ20のソング）を一覧表示し、任意のセ
 ### メンバー
 
 * [naokits]  
-    このリポジトリの管理者
+    このリポジトリの管理者（若いエンジニアを支援していきたいと考えています）
 
 * [ikesyo]  
     GitHubのReactiveCocoaのコミッター
+
+
+
+[ikesyo]: https://github.com/ikesyo
+[naokits]: https://github.com/naokits
+
+[AFNetworking]: https://github.com/AFNetworking/AFNetworking
+[SDWebImage]: https://github.com/rs/SDWebImage
+[ReactiveCocoa]: https://github.com/ReactiveCocoa/ReactiveCocoa
+[Mantle]: https://github.com/Mantle/Mantle
+
+[Swift]: https://developer.apple.com/swift/
