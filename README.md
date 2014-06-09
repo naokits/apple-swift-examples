@@ -37,6 +37,10 @@ iTunesフィード（トップ20のソング）を一覧表示し、任意のセ
 
 * [TheAmazingAudioEngine]
 
+## メンバー以外の方が作成されたサンプル
+
+* [wantedly/swift-rss-sample](https://github.com/wantedly/swift-rss-sample)
+
 
 ## 関連情報
 
