@@ -12,7 +12,7 @@ class DetailViewController: UIViewController {
 
     @IBOutlet var textView : UITextView!
 
-    var detailItem: NSDictionary? {
+    var detailItem: AnyObject? {
         didSet {
             // Update the view.
             println("値がセットされた: \(detailItem)")
@@ -22,14 +22,14 @@ class DetailViewController: UIViewController {
     func configureView() {
         println("コンフィグ")
         // Update the user interface for the detail item.
-        if let detail: NSDictionary = self.detailItem {
+        if let detail: AnyObject? = self.detailItem {
             if textView {
                 let tv = textView!
-                
-                let description = self.detailItem.description as NSString
-                let cDescription = description.cStringUsingEncoding(NSUTF8StringEncoding)
-                let utf8Description = NSString.stringWithCString(cDescription, encoding: NSNonLossyASCIIStringEncoding)
-                textView.text = utf8Description
+                let description = self.detailItem?.description
+//                let cDescription = description.cStringUsingEncoding(NSUTF8StringEncoding)
+//                let utf8Description = NSString.stringWithCString(cDescription, encoding: NSNonLossyASCIIStringEncoding)
+//                let utf8Description = NSString.stringWithCString(description, encoding: NSNonLossyASCIIStringEncoding)
+                textView.text = description
             } else {
                 println("nilではいけない")
             }
