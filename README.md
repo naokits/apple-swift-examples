@@ -1,6 +1,5 @@
 ## apple-swift-examples
 
-ほげ
 
 このプロジェクトはアップル社の新言語**[Swift]**を使用した、さまざまなiOSアプリケーションのサンプルを提供することを目的としています。
 
@@ -38,7 +37,7 @@ iTunesフィード（トップ20のソング）を一覧表示し、任意のセ
 
 * [TheAmazingAudioEngine]
 
-### Downroder
+### Downloder
 
 NSURLSessionTaskDelegate, NSURLSessionDownloadDelegateを使用したデモアプリ
 
