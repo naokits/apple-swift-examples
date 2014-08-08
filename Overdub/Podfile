@@ -1,0 +1,9 @@
+#
+# https://github.com/CocoaPods/Specs
+#
+
+platform :ios, '7.0'
+
+inhibit_all_warnings!
+
+pod 'TheAmazingAudioEngine', '~> 1.0'

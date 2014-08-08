@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1255F353194BDC33000E9F90 /* AudioController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1255F352194BDC33000E9F90 /* AudioController.m */; };
+		12EA302F19448F1F004B50AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EA302E19448F1F004B50AB /* AppDelegate.swift */; };
+		12EA303119448F1F004B50AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EA303019448F1F004B50AB /* ViewController.swift */; };
+		12EA303419448F1F004B50AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12EA303219448F1F004B50AB /* Main.storyboard */; };
+		12EA303619448F1F004B50AB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12EA303519448F1F004B50AB /* Images.xcassets */; };
+		12EA304219448F1F004B50AB /* OverdubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EA304119448F1F004B50AB /* OverdubTests.swift */; };
+		D3D08AB0556646B0BAC32FF3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ADE2863DC074C139385266D /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12EA303C19448F1F004B50AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12EA302119448F1F004B50AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12EA302819448F1F004B50AB;
+			remoteInfo = Overdub;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04BD9F481BA4404687AA45C1 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		1255F351194BDC33000E9F90 /* AudioController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioController.h; sourceTree = "<group>"; };
+		1255F352194BDC33000E9F90 /* AudioController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioController.m; sourceTree = "<group>"; };
+		12A3300319460BD200765D7B /* Overdub-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Overdub-Bridging-Header.h"; sourceTree = "<group>"; };
+		12EA302919448F1F004B50AB /* Overdub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Overdub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12EA302D19448F1F004B50AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12EA302E19448F1F004B50AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		12EA303019448F1F004B50AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		12EA303319448F1F004B50AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		12EA303519448F1F004B50AB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		12EA303B19448F1F004B50AB /* OverdubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OverdubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12EA304019448F1F004B50AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12EA304119448F1F004B50AB /* OverdubTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverdubTests.swift; sourceTree = "<group>"; };
+		6ADE2863DC074C139385266D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12EA302619448F1F004B50AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3D08AB0556646B0BAC32FF3 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12EA303819448F1F004B50AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12EA302019448F1F004B50AB = {
+			isa = PBXGroup;
+			children = (
+				12EA302B19448F1F004B50AB /* Overdub */,
+				12EA303E19448F1F004B50AB /* OverdubTests */,
+				12EA302A19448F1F004B50AB /* Products */,
+				04BD9F481BA4404687AA45C1 /* Pods.xcconfig */,
+				FCA903A85FD44EE6A6452013 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		12EA302A19448F1F004B50AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12EA302919448F1F004B50AB /* Overdub.app */,
+				12EA303B19448F1F004B50AB /* OverdubTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12EA302B19448F1F004B50AB /* Overdub */ = {
+			isa = PBXGroup;
+			children = (
+				12EA302E19448F1F004B50AB /* AppDelegate.swift */,
+				12EA303019448F1F004B50AB /* ViewController.swift */,
+				12EA303219448F1F004B50AB /* Main.storyboard */,
+				12EA303519448F1F004B50AB /* Images.xcassets */,
+				12EA302C19448F1F004B50AB /* Supporting Files */,
+				1255F351194BDC33000E9F90 /* AudioController.h */,
+				1255F352194BDC33000E9F90 /* AudioController.m */,
+			);
+			path = Overdub;
+			sourceTree = "<group>";
+		};
+		12EA302C19448F1F004B50AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				12A3300319460BD200765D7B /* Overdub-Bridging-Header.h */,
+				12EA302D19448F1F004B50AB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		12EA303E19448F1F004B50AB /* OverdubTests */ = {
+			isa = PBXGroup;
+			children = (
+				12EA304119448F1F004B50AB /* OverdubTests.swift */,
+				12EA303F19448F1F004B50AB /* Supporting Files */,
+			);
+			path = OverdubTests;
+			sourceTree = "<group>";
+		};
+		12EA303F19448F1F004B50AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				12EA304019448F1F004B50AB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FCA903A85FD44EE6A6452013 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6ADE2863DC074C139385266D /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12EA302819448F1F004B50AB /* Overdub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12EA304519448F1F004B50AB /* Build configuration list for PBXNativeTarget "Overdub" */;
+			buildPhases = (
+				1926EE8D40B1410A865CDC42 /* Check Pods Manifest.lock */,
+				12EA302519448F1F004B50AB /* Sources */,
+				12EA302619448F1F004B50AB /* Frameworks */,
+				12EA302719448F1F004B50AB /* Resources */,
+				7B4BB155883B46B1A91E292C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Overdub;
+			productName = Overdub;
+			productReference = 12EA302919448F1F004B50AB /* Overdub.app */;
+			productType = "com.apple.product-type.application";
+		};
+		12EA303A19448F1F004B50AB /* OverdubTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12EA304819448F1F004B50AB /* Build configuration list for PBXNativeTarget "OverdubTests" */;
+			buildPhases = (
+				12EA303719448F1F004B50AB /* Sources */,
+				12EA303819448F1F004B50AB /* Frameworks */,
+				12EA303919448F1F004B50AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12EA303D19448F1F004B50AB /* PBXTargetDependency */,
+			);
+			name = OverdubTests;
+			productName = OverdubTests;
+			productReference = 12EA303B19448F1F004B50AB /* OverdubTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12EA302119448F1F004B50AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Naoki Tsutsui";
+				TargetAttributes = {
+					12EA302819448F1F004B50AB = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					12EA303A19448F1F004B50AB = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 12EA302819448F1F004B50AB;
+					};
+				};
+			};
+			buildConfigurationList = 12EA302419448F1F004B50AB /* Build configuration list for PBXProject "Overdub" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 12EA302019448F1F004B50AB;
+			productRefGroup = 12EA302A19448F1F004B50AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12EA302819448F1F004B50AB /* Overdub */,
+				12EA303A19448F1F004B50AB /* OverdubTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12EA302719448F1F004B50AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12EA303419448F1F004B50AB /* Main.storyboard in Resources */,
+				12EA303619448F1F004B50AB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12EA303919448F1F004B50AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1926EE8D40B1410A865CDC42 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7B4BB155883B46B1A91E292C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12EA302519448F1F004B50AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1255F353194BDC33000E9F90 /* AudioController.m in Sources */,
+				12EA303119448F1F004B50AB /* ViewController.swift in Sources */,
+				12EA302F19448F1F004B50AB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12EA303719448F1F004B50AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12EA304219448F1F004B50AB /* OverdubTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12EA303D19448F1F004B50AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12EA302819448F1F004B50AB /* Overdub */;
+			targetProxy = 12EA303C19448F1F004B50AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		12EA303219448F1F004B50AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12EA303319448F1F004B50AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		12EA304319448F1F004B50AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		12EA304419448F1F004B50AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12EA304619448F1F004B50AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04BD9F481BA4404687AA45C1 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = Overdub/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Overdub/Overdub-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		12EA304719448F1F004B50AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04BD9F481BA4404687AA45C1 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = Overdub/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Overdub/Overdub-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		12EA304919448F1F004B50AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Overdub.app/Overdub";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OverdubTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		12EA304A19448F1F004B50AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Overdub.app/Overdub";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OverdubTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12EA302419448F1F004B50AB /* Build configuration list for PBXProject "Overdub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12EA304319448F1F004B50AB /* Debug */,
+				12EA304419448F1F004B50AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12EA304519448F1F004B50AB /* Build configuration list for PBXNativeTarget "Overdub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12EA304619448F1F004B50AB /* Debug */,
+				12EA304719448F1F004B50AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12EA304819448F1F004B50AB /* Build configuration list for PBXNativeTarget "OverdubTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12EA304919448F1F004B50AB /* Debug */,
+				12EA304A19448F1F004B50AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12EA302119448F1F004B50AB /* Project object */;
+}
