@@ -97,21 +97,11 @@ class ViewController: UIViewController, NSURLSessionDownloadDelegate {
     func URLSession(session: NSURLSession!, downloadTask: NSURLSessionDownloadTask!, didWriteData bytesWritten: Int64, totalBytesWritten: Int64, totalBytesExpectedToWrite: Int64) {
         // ダウンロードの進行状況が定期的に通知されます
         
-        if ((++self.counter % 50) == 0) {
+        if ((++self.counter % 10) == 0) {
             let writedSize = Float((Float(totalBytesWritten) / Float(totalBytesExpectedToWrite)))
-            //            println("読み込み済: \(bytesWritten) : \(totalBytesWritten) : \(totalBytesExpectedToWrite) : \(writedSize) * 100")
+            // println("読み込み済: \(bytesWritten) : \(totalBytesWritten) : \(totalBytesExpectedToWrite) : \(writedSize) * 100")
             self.progressView.progress = writedSize
         }
-    }
-    
-    /* Sent when a download has been resumed. If a download failed with an
-    * error, the -userInfo dictionary of the error will contain an
-    * NSURLSessionDownloadTaskResumeData key, whose value is the resume
-    * data.
-    */
-    func URLSession(session: NSURLSession!, downloadTask: NSURLSessionDownloadTask!, didResumeAtOffset fileOffset: Int64, expectedTotalBytes: Int64)
-    {
-        println("リジューム:\(fileOffset) : \(expectedTotalBytes)")
     }
     
     //====================================================================================
@@ -162,9 +152,9 @@ class ViewController: UIViewController, NSURLSessionDownloadDelegate {
     func URLSession(session: NSURLSession!, task: NSURLSessionTask!, didCompleteWithError error: NSError!) {
         NSLog("セッションの終了")
         if error != nil {
+            downloadTask.cancel()
             if error.code == -999 {
                 println("キャンセルされた")
-                downloadTask.cancel()
             } else if error.code == -1005 {
                 println("The operation couldn’t be completed.")
             } else {
