@@ -37,14 +37,14 @@ iTunesフィード（トップ20のソング）を一覧表示し、任意のセ
 
 * [TheAmazingAudioEngine]
 
-### Downloder
+### DownloadDemo
 
-NSURLSessionTaskDelegate, NSURLSessionDownloadDelegateを使用したデモアプリ
+NSURLSessionDownloadDeleteを使用したデモアプリ。
 
 
-### ResumeDownloder
+### ResumeDownloadDemo
 
-NSURLSessionTaskDelegate, NSURLSessionDownloadDelegateを使用したデモアプリ。（リジューム対応）
+NSURLSessionDownloadDelegateを使用したデモアプリ。（リジューム対応）
 
 
 ## メンバー以外の方が作成されたサンプル
