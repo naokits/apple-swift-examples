@@ -104,7 +104,9 @@ class MasterViewController: UITableViewController {
                 println(error)
                 return
             }
-            var entries = results.valueForKeyPath("feed.entry") as NSArray
+            let feedEntry: NSDictionary = results as NSDictionary
+            var entries: NSArray = feedEntry.valueForKeyPath("feed.entry") as NSArray
+
             if self.objects == nil {
                 self.objects = NSMutableArray()
             }
