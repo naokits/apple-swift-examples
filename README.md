@@ -37,15 +37,18 @@ iTunesフィード（トップ20のソング）を一覧表示し、任意のセ
 
 * [TheAmazingAudioEngine]
 
-### DownloadDemo
+### [DownloadDemo](https://github.com/naokits/apple-swift-examples/tree/master/DownloadDemo)
 
-NSURLSessionDownloadDeleteを使用したデモアプリ。
+NSURLSessionDownloadDelegateを使用した、大きめのPDFファイルをダウンロードするデモアプリ。
 
 
 ### ResumeDownloadDemo
 
-NSURLSessionDownloadDelegateを使用したデモアプリ。（リジューム対応）
+NSURLSessionDownloadDelegateを使用した、大きめのPDFファイルをダウンロードするデモアプリ。（リジューム対応）
 
+### AnimatedImageDemo
+
+バンドル内の複数の画像ファイルをアニメーションで表示するデモアプリ
 
 ## メンバー以外の方が作成されたサンプル
 
