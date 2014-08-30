@@ -39,12 +39,12 @@ iTunesフィード（トップ20のソング）を一覧表示し、任意のセ
 
 ### [DownloadDemo](https://github.com/naokits/apple-swift-examples/tree/master/DownloadDemo)
 
-NSURLSessionDownloadDelegateを使用した、大きめのPDFファイルをダウンロードするデモアプリ。
+NSURLSessionDownloadDelegateを使用した、大きめのPDFファイルをダウンロードするデモアプリ。（バックグラウンド通信対応）
 
 
-### ResumeDownloadDemo
+### [ResumeDownloadDemo](https://github.com/naokits/apple-swift-examples/tree/master/ResumeDownloadDemo)
 
-NSURLSessionDownloadDelegateを使用した、大きめのPDFファイルをダウンロードするデモアプリ。（リジューム対応）
+NSURLSessionDownloadDelegateを使用した、大きめのPDFファイルをダウンロードするデモアプリ。（バックグラウンド通信、レジューム対応）
 
 ### AnimatedImageDemo
 
