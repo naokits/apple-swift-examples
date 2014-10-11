@@ -1,4 +1,5 @@
 ## apple-swift-examples
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/naokits/apple-swift-examples?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 
 このプロジェクトはアップル社の新言語**[Swift]**を使用した、さまざまなiOSアプリケーションのサンプルを提供することを目的としています。
